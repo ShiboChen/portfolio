@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  height: 100%;
+}
+
+@layer base {
+  img {
+    width: 100%;
+  }
+  .middle {
+    @apply container mx-auto py-[3rem] px-6
+  }
+}
