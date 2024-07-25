@@ -1,10 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Project_1 from "../assets/Project_1.JPG";
-import Project_2 from "../assets/Project_2.JPG";
-import Project_3 from "../assets/Project_3.JPG";
-import Project_4 from "../assets/Project_4.PNG";
-import Project_5 from "../assets/Project_5.PNG";
+import Project_1 from "../assets/Project_1.png";
+import Project_2 from "../assets/Project_2.png";
+import Project_3 from "../assets/Project_3.png";
+import Project_4 from "../assets/Project_4.JPG";
+import Project_5 from "../assets/Project_5.JPG";
 import Project_6 from "../assets/Project_6.PNG";
 
 const container = {
@@ -32,7 +32,7 @@ const Project = ({ title, imgSrc, text, linkSrc }) => {
         <p className="text-2xl"><a href={linkSrc} target="_blank">{title}</a></p>
         <p className="mt-7">{text}</p>
       </div>
-      <img src={imgSrc} alt={title} />
+      <img src={imgSrc} alt={title} className="w-full h-[300px]"/>
     </motion.div>
   );
 };
@@ -75,32 +75,32 @@ const Projects = () => {
           <Project
             title="Project_One"
             imgSrc={Project_1}
-            text={"Pro Tech Electronics"}
-            linkSrc={"https://proelectronicsapp.herokuapp.com/"}
+            text={"RealtyHub"}
+            linkSrc={"https://realtyhub-g2y1.onrender.com/"}
           />
-          <Project
+            <Project
             title="Project_Two"
             imgSrc={Project_2}
-            text={"Expense Tracker App"}
-            linkSrc={"https://express-tracker-app.herokuapp.com/"}
+            text={"NexTechStore"}
+            linkSrc={"https://nextechstore.onrender.com/"}
           />
-          <Project
+            <Project
             title="Project_Three"
             imgSrc={Project_3}
-            text={"Image Processing App"}
-            linkSrc={"#"}
+            text={"FriendNet"}
+            linkSrc={"https://friendnet-h8k5.onrender.com/login"}
           />
           <Project
             title="Project_Four"
             imgSrc={Project_4}
-            text={"Fruit Slice Game"}
-            linkSrc={"https://peaceful-caverns-67754.herokuapp.com/index.html"}
+            text={"Expense Tracker App"}
+            linkSrc={"https://express-tracker-app.herokuapp.com/"}
           />
           <Project
             title="Project_Five"
             imgSrc={Project_5}
-            text={"Wikipedia Search"}
-            linkSrc={"https://codepen.io/shibochen/full/zpWMGa"}
+            text={"Image Processing App"}
+            linkSrc={"#"}
           />
           <Project
             title="Project_Six"

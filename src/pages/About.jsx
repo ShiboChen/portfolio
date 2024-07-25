@@ -71,11 +71,11 @@ const About = () => {
             <li>- Extremely eager to learn new skills and challenge myself</li>
             <li>
               - Solid knowledge of multiple programming languages, such as
-              JavaScript/ES6, Python, C++, HTML/HTML 5, CSS/CSS3
+              JavaScript/ES6, Python, HTML/HTML 5, CSS/CSS3
             </li>
             <li>
               - Experience with modern development frameworks such as React,
-              jQuery, Express
+              Express
             </li>
             <li>
               - Ability to develop both front-end and back-end components of an
@@ -86,7 +86,7 @@ const About = () => {
 
           <button className="py-2 px-4 bg-blue shadow-md text-white rounded-md mt-3">
             <a
-              href="https://drive.google.com/file/d/1lSgGhYc57ra3IOaiEhgQwh5u1X4oWAn-/view?usp=sharing"
+              href="https://drive.google.com/file/d/1lw2DMEpa0fP1YWWwvSAcg_EZJHOIEX2p/view?usp=sharing"
               target="_blank"
               download
             >

@@ -8,9 +8,9 @@ const Skills = () => {
     { title: "CSS", level: "Advanced" },
     { title: "Javascript", level: "Advanced" },
     { title: "React", level: "Advanced" },
-    { title: "Tailwind", level: "Intermediate" },
+    { title: "Tailwind CSS", level: "Intermediate" },
     { title: "Bootstrap", level: "Intermediate" },
-    { title: "Material UI", level: "Intermediate" },
+    { title: "Daisy UI", level: "Intermediate" },
     { title: "Git", level: "Intermediate" },
   ];
 
@@ -21,7 +21,7 @@ const Skills = () => {
     { title: "MySQL", level: "Beginner" },
     { title: "Python", level: "Intermediate" },
     { title: "Postman", level: "Intermediate" },
-    { title: "Heroku", level: "beginner" },
+    { title: "Render", level: "beginner" },
     { title: "JWT", level: "beginner" },
   ]
 

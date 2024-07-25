@@ -42,7 +42,7 @@ const Home = ({ setSelectedPage }) => {
         >
           <div className="flex justify-center sm:justify-start mt-4 gap-4">
             <a
-              href="https://drive.google.com/file/d/1lSgGhYc57ra3IOaiEhgQwh5u1X4oWAn-/view?usp=sharing"
+              href="https://drive.google.com/file/d/1lw2DMEpa0fP1YWWwvSAcg_EZJHOIEX2p/view?usp=sharing"
               target="_blank"
               className="py-2 px-4  rounded-md shadow-md bg-blue text-white"
               download
